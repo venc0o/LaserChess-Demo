@@ -1,0 +1,1338 @@
+fileFormatVersion: 2
+guid: 23e5e30498d30174b9e43d09dc419871
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: fgun_hose_1
+    100002: fgun_hose_2
+    100004: fire_point
+    100006: flamer_root
+    100008: //RootNode
+    100010: head
+    100012: l_calf
+    100014: l_clavicle
+    100016: l_foot
+    100018: l_forearm
+    100020: l_hand
+    100022: l_thigh
+    100024: l_toe0
+    100026: l_upperarm
+    100028: mesh_flamer
+    100030: mesh_gun
+    100032: neck
+    100034: pelvis
+    100036: r_calf
+    100038: r_clavicle
+    100040: r_foot
+    100042: r_forearm
+    100044: r_hand
+    100046: r_thigh
+    100048: r_toe0
+    100050: r_upperarm
+    100052: spine
+    100054: spine1
+    400000: fgun_hose_1
+    400002: fgun_hose_2
+    400004: fire_point
+    400006: flamer_root
+    400008: //RootNode
+    400010: head
+    400012: l_calf
+    400014: l_clavicle
+    400016: l_foot
+    400018: l_forearm
+    400020: l_hand
+    400022: l_thigh
+    400024: l_toe0
+    400026: l_upperarm
+    400028: mesh_flamer
+    400030: mesh_gun
+    400032: neck
+    400034: pelvis
+    400036: r_calf
+    400038: r_clavicle
+    400040: r_foot
+    400042: r_forearm
+    400044: r_hand
+    400046: r_thigh
+    400048: r_toe0
+    400050: r_upperarm
+    400052: spine
+    400054: spine1
+    4300000: mesh_gun
+    4300002: mesh_flamer
+    7400000: walk_right
+    7400002: base
+    7400004: aim_down
+    7400006: aim_up
+    7400008: death
+    7400010: hit1
+    7400012: hit2
+    7400014: hit2smooth
+    7400016: idle
+    7400018: turn_left
+    7400020: turn_right
+    7400022: walk_back
+    7400024: walk_forward
+    7400026: walk_left
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: mesh_flamer
+    13700002: mesh_gun
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: flamer_root
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk_right
+      takeName: walk_right
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: base
+      takeName: base
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 0
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 0
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aim_down
+      takeName: aim_down
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aim_up
+      takeName: aim_up
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: death
+      firstFrame: 0
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit1
+      takeName: hit1
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit2
+      takeName: hit2
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit2smooth
+      takeName: hit2smooth
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_left
+      takeName: turn_left
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_right
+      takeName: turn_right
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_back
+      takeName: walk_back
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_forward
+      takeName: walk_forward
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_left
+      takeName: walk_left
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flamer_root
+        weight: 1
+      - path: flamer_root/pelvis
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot
+        weight: 1
+      - path: flamer_root/pelvis/l_thigh/l_calf/l_foot/l_toe0
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot
+        weight: 1
+      - path: flamer_root/pelvis/r_thigh/r_calf/r_foot/r_toe0
+        weight: 1
+      - path: flamer_root/pelvis/spine
+        weight: 1
+      - path: flamer_root/pelvis/spine/fgun_hose_2
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/l_clavicle/l_upperarm/l_forearm/l_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/neck/head
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fgun_hose_1
+        weight: 1
+      - path: flamer_root/pelvis/spine/spine1/r_clavicle/r_upperarm/r_forearm/r_hand/fire_point
+        weight: 0
+      - path: mesh_flamer
+        weight: 0
+      - path: mesh_gun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
